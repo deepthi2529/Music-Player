@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Album</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <div class="player"><br>
+    <h1>AlluArjun Songs</h1>
+
+<div class="pic">
+    <img src="AlluArjun.jpeg" alt="content"><br><br>
+</div>
+
+    <audio class="audio" src="nuvu nenu.mp3" controls>Song1</audio><br><br>
+    <audio class="audio" src="Top Lesi Poddi.mp3" controls>Song2</audio><br><br>
+    <audio class="audio" src="Egirey Mabbulona.mp3" controls>Song3</audio><br><br>
+    <audio class="audio" src="Feel My Love.mp3" controls >Song4</audio><br><br>
+    <audio class="audio" src="Violin Song.mp3" controls>Song5</audio><br><br>
+
+    <div class="controls">
+        <button id="prev">Prev</button>
+        <button id="play">Play</button>
+        <button id="next">Next</buttonn>
+    </div>
+   <div class="progress">
+    <label for="progress">Progress</label>
+   <input type="range" id="progress" value="0" step="1" min="0" max="100">
+</div>
+    <div class="volume-control">
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" value="100" step="1" min="0" max="100">
+
+    </div>
+</div>
+<script src="music.js"></script>
+</body>
+</html>
